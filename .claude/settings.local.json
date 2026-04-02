@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(rm \"C:\\\\Users\\\\wskyl\\\\OneDrive\\\\문서\\\\20260402_clone_skill/.claude/commands/ui-clone.md\")",
-      "Bash(rmdir \"C:\\\\Users\\\\wskyl\\\\OneDrive\\\\문서\\\\20260402_clone_skill/.claude/commands\")",
-      "Bash(mkdir -p \"C:\\\\Users\\\\wskyl\\\\OneDrive\\\\문서\\\\20260402_clone_skill/.claude/skills/ui-clone\")"
-    ]
-  }
-}
