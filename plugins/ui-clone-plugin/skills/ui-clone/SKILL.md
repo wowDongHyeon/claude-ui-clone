@@ -1,7 +1,6 @@
 ---
 name: ui-clone
 description: screenshots/ 폴더의 레거시 UI 캡처 이미지를 분석해서 spec.md, design.md, React 컴포넌트를 자동 생성한다. 사용자가 "UI 클론", "화면 복제", "스크린샷으로 React 만들어줘", "/ui-clone" 등을 요청할 때 사용한다.
-disable-model-invocation: true
 argument-hint: [screenshots-folder]
 ---
 
