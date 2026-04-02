@@ -1,0 +1,12 @@
+{
+  "name": "ui-clone-plugin",
+  "version": "1.0.0",
+  "description": "screenshots/ 폴더 이미지 분석 → spec.md + design.md + React 컴포넌트 자동 생성",
+  "skills": [
+    {
+      "name": "ui-clone",
+      "path": "skills/ui-clone",
+      "description": "레거시 시스템 UI 캡처 이미지를 분석해서 spec.md, design.md, React 컴포넌트를 자동 생성하는 전체 파이프라인"
+    }
+  ]
+}

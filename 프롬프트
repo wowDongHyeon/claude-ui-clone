@@ -1,0 +1,28 @@
+ui-clone skill을 플러그인 마켓플레이스로 배포할 수 있게 구조를 만들어줘.
+
+현재 skill 위치:
+C:\Users\wskyl\OneDrive\문서\20260402_clone_skill\.claude\skills\ui-clone\SKILL.md
+
+아래 구조로 만들어줘:
+
+ui-clone-marketplace/
+├── .claude-plugin/
+│   └── marketplace.json   ← 마켓플레이스 카탈로그
+└── plugins/
+    └── ui-clone-plugin/
+        ├── .claude-plugin/
+        │   └── plugin.json  ← 플러그인 메타데이터
+        └── skills/
+            └── ui-clone/
+                └── SKILL.md  ← 기존 SKILL.md 복사
+
+marketplace.json 내용:
+- name: ui-clone-marketplace
+- owner: 동현
+- plugin 이름: ui-clone-plugin
+- description: 레거시 시스템 UI 캡처 이미지로 React 클론 자동 생성
+
+plugin.json 내용:
+- name: ui-clone-plugin
+- version: 1.0.0
+- description: screenshots/ 폴더 이미지 분석 → spec.md + design.md + React 컴포넌트 자동 생성
