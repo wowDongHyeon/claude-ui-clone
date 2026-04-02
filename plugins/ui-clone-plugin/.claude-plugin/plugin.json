@@ -1,5 +1,6 @@
 {
   "name": "ui-clone-plugin",
   "version": "1.0.0",
-  "description": "screenshots/ 폴더 이미지 분석 → spec.md + design.md + React 컴포넌트 자동 생성"
+  "description": "screenshots/ 폴더 이미지 분석 → spec.md + design.md + React 컴포넌트 자동 생성",
+  "skills": "./skills"
 }
